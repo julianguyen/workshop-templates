@@ -1,0 +1,185 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,300);
+
+/* body */
+
+body {
+	margin: 0 auto;
+	font: 20px 'Source Sans Pro';
+	font-weight: 400;
+	color: #000000;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 300;
+	font-size: 40px;
+	margin: 0;
+	padding-bottom: 30px;
+}
+
+/* header */
+
+header {
+	background-color: #109d96;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	height: 86px;
+}
+
+div#header-title {
+	padding: 30px;
+	display: inline-block;
+	float: left;
+	font-weight: 900;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+div#header-title a:link, div#header-title a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+div#header-title a:hover {
+	color: #15cbc2;
+	text-decoration: none;
+}
+
+nav {
+	padding: 30px;
+	display: inline-block;
+	float: right;
+}
+
+nav a:link, nav a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: none;
+	padding-bottom: 10px;
+	border-bottom: 5px solid #ffffff;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+/* main */
+
+main {
+	padding-top: 86px;
+	background-color: #ffffff;
+}
+
+section#welcome {
+	width: 100%;
+	height: 400px;
+	background-image: url('http://lorempixel.com/output/cats-q-c-1553-1516-7.jpg');
+	background-position: center;
+	position: relative;
+}
+
+div#welcome-text {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 40px;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+section.white-section {
+	padding: 30px;
+	background-color: #ffffff;
+}
+
+section.white-section h1 {
+	color: #109d96;
+}
+
+section.brown-section {
+	padding: 30px;
+	background-color: #5D413D;
+	color: #ffffff;
+}
+
+section.brown-section h1 {
+	color: #15cbc2;
+}
+
+div.three-items {
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+div.an-item {
+	display: inline-block;
+	width: 33%;
+}
+
+div.padded-item {
+	padding-right: 30px;
+}
+
+div.item-text {
+	padding-top: 30px;
+	text-align: justify;
+}
+
+img.medium-circle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+/* portfolio */
+
+section#portfolio {
+	padding: 30px;
+}
+
+div.table {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	text-align: center;
+}
+
+div.table-row {
+	display: table-row;
+}
+
+div.table-cell {
+	display: table-cell;
+	padding: 10px;
+}
+
+img.medium-rounded {
+	border-radius: 30px;
+	width: 200px;
+	height: 200px;
+}
+
+img.medium-rounded:hover {
+	opacity: 0.5;
+}
+
+/* footer */
+
+footer {
+	border-top: 1px solid #5D413D;
+	padding: 30px;
+	color: #5D413D;
+}
